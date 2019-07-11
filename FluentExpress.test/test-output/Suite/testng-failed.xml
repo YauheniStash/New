@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="com.qa.test.UsersHomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.test.UsersHomePageTest -->
+      <class name="com.qa.test.GetMoreChractersTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.test.GetMoreChractersTest -->
+      <class name="com.qa.test.ActivateAccountTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyPageTitle"/>
+          <include name="verifyUsersEmail"/>
+        </methods>
+      </class> <!-- com.qa.test.ActivateAccountTest -->
+      <class name="com.qa.test.GoogleTest">
+        <methods>
+          <include name="accountActivation"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.test.GoogleTest -->
+      <class name="com.qa.test.MainPage_Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.test.MainPage_Test -->
+      <class name="com.qa.test.SignInPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.test.SignInPageTest -->
+      <class name="com.qa.test.SignUpPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.test.SignUpPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
